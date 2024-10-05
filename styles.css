@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Do NOT delete the above URL/CDI 
+NOTE: It works ONLINE same as some of the videos i used*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px red solid; */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter;
+  overflow-x: hidden;
+}
+
+/* Advert */
+
+.advert {
+  background-color: rgb(247, 245, 245);
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem;
+  align-items: center;
+  text-align: center;
+  height: 3rem;
+  width: 102%;
+  font-size: 14px;
+}
+
+.new {
+  position: relative;
+  top: -2px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  align-items: center;
+  height: 1px;
+  width: 5rem;
+  border-radius: 29px;
+  font-size: 12px;
+}
+
+.adlink {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.adlink:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.close {
+  /* display: flex; */
+  position: relative;
+  left: 15rem;
+  font-size: 22px;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0.5rem;
+  display: flex;
+  background-color: white;
+  /* justify-content: space-between; */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-weight: 550;
+  font-size: 14px;
+  position: relative;
+  top: 0.5rem;
+  left: 4rem;
+}
+
+.logo {
+  display: flex;
+  /* position: relative; */
+  text-align: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+.arrow {
+  position: relative;
+  top: 4px;
+  width: 0.6rem;
+  height: 0.6rem;
+  transition: 666ms;
+}
+
+.arrow:hover {
+  transform: rotate(180deg);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.product {
+  display: flex;
+  /* height: 100%;
+    width: 100%; */
+  padding: 8px;
+  transition: 666ms;
+}
+
+.product:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 7px;
+}
+
+.teams {
+  display: flex;
+  padding: 8px;
+  transition: 666ms;
+}
+
+.teams:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 7px;
+}
+
+.individuals {
+  display: flex;
+  padding: 8px;
+  transition: 666ms;
+}
+
+.individuals:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 7px;
+}
+
+.pricing {
+  display: flex;
+  padding: 8px;
+  transition: 666ms;
+}
+
+.pricing:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 7px;
+}
+
+.download {
+  display: flex;
+  padding: 8px;
+  transition: 666ms;
+}
+
+.download:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 7px;
+}
+
+.links {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  position: relative;
+  top: 0.7rem;
+  left: 18rem;
+  /* border: 2px red solid; */
+  height: 34px;
+}
+
+.access {
+  position: relative;
+  top: 0px;
+  width: 7.3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  height: 1rem;
+  border: none;
+  background-color: black;
+  color: white;
+  height: 100%;
+  margin-left: 19px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 666ms;
+}
+
+.access:hover {
+  box-shadow: 3px 3px 19px gray;
+  background-color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+
+.demo {
+  padding: 15px;
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 7px;
+}
+
+.line {
+  display: flex;
+  position: relative;
+  top: 5px;
+}
+
+.login {
+  display: flex;
+  height: 50%;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.login:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 7px;
+}
+
+/* Introduction */
+
+header {
+  display: flex;
+  position: relative;
+  top: 1rem;
+  left: 5rem;
+  transform: scale(0.9);
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.info {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.access2 {
+  padding: 1rem;
+  border: none;
+  background-color: rgb(5, 130, 255);
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.access2:hover {
+  cursor: pointer;
+  background-color: rgb(4, 90, 195);
+}
+
+.demo2 {
+  position: relative;
+  left: 9px;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: rgb(5, 130, 255);
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgb(235, 245, 254);
+}
+
+.demo2:hover {
+  cursor: pointer;
+  background-color: rgb(214, 225, 245);
+}
+
+.team-info {
+  color: rgb(190, 188, 188);
+  font-weight: 500;
+}
+
+.team-img {
+  display: flex;
+  gap: 1.9rem;
+  position: relative;
+  top: -20px;
+}
+
+.toyota {
+  width: 110px;
+  height: 110px;
+}
+
+.figma {
+  position: relative;
+  top: 15px;
+  width: 80px;
+  height: 80px;
+}
+
+.spotify {
+  position: relative;
+  top: 40px;
+  width: 95px;
+  height: 30px;
+}
+
+.discord {
+  width: 110px;
+  height: 110px;
+}
+
+.Video {
+  position: relative;
+  top: -29px;
+  left: 20px;
+  width: 760px;
+}
+
+/* Hero section */
+
+.wiki {
+  width: 1100px;
+  height: 638px;
+  box-shadow: 1px 1px 12px gray;
+  border-radius: 14px;
+  position: relative;
+  left: 9.3rem;
+}
+
+.ai {
+  position: relative;
+  top: -16px;
+  left: 4.7rem;
+  box-shadow: 1px 1px 5px black;
+  border: 1.2px solid rgb(229, 229, 229);
+  border-radius: 30%;
+  width: 3.6%;
+  height: 100%;
+  opacity: 70%;
+}
+
+.book,
+.doc,
+.target,
+.spark,
+.dates,
+.globe {
+  display: flex;
+  width: 90px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(229, 229, 229);
+  transition: 666ms;
+}
+
+.book {
+  background-color: rgb(229, 229, 229);
+  cursor: pointer;
+}
+
+.book:hover {
+  background-color: rgb(229, 229, 229);
+  cursor: pointer;
+}
+
+.doc:hover {
+  background-color: rgb(229, 229, 229);
+  cursor: pointer;
+}
+.target:hover {
+  background-color: rgb(229, 229, 229);
+  cursor: pointer;
+}
+.spark:hover {
+  background-color: rgb(229, 229, 229);
+  cursor: pointer;
+}
+.dates:hover {
+  background-color: rgb(229, 229, 229);
+  cursor: pointer;
+}
+.globe:hover {
+  background-color: rgb(229, 229, 229);
+  cursor: pointer;
+}
+.carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.carousel-button img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Hero2 section */
+
+.hero2 {
+  display: flex;
+  padding-left: 6rem;
+  margin-top: 8rem;
+  /* justify-content: space-between; */
+  gap: 6rem;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.headtext {
+  font-size: 4rem;
+  font-weight: 760;
+}
+
+.headinfo {
+  font-size: 19px;
+  font-weight: 550;
+  color: rgb(173, 170, 170);
+}
+
+.explore {
+  font-size: 18px;
+  color: rgb(5, 130, 255);
+  font-weight: 640;
+}
+
+.explore:hover {
+  text-decoration: underline blue;
+}
+
+.img-section {
+  display: flex;
+  position: relative;
+  top: 3.3rem;
+  gap: 3rem;
+}
+
+.Video2 {
+  width: 6rem;
+}
+
+.image1,
+.image2,
+.image3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.image1 h5 {
+  font-size: 17px;
+}
+.image2 h5 {
+  font-size: 16px;
+}
+.image3 h5 {
+  font-size: 17px;
+}
+
+.image1 p {
+  /* font-size: 12px; */
+  font-weight: 600;
+  color: rgb(145, 144, 144);
+}
+
+.image2 p {
+  font-weight: 600;
+  color: rgb(145, 144, 144);
+}
+
+.image3 p {
+  font-weight: 600;
+  color: rgb(145, 144, 144);
+}
+
+.Video3 {
+  width: 70rem;
+  border-radius: 10px;
+  /* box-shadow: 1px 5px 10px black; */
+  margin-top: 2rem;
+  margin-left: 7.1rem;
+}
+
+.replace {
+  display: flex;
+  gap: 1rem;
+  padding-left: 7rem;
+  padding-top: 1.2rem;
+}
+
+.replace h6 {
+  font-size: 1.1rem;
+}
+
+.replace div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.replace div p {
+  color: rgb(158, 155, 155);
+  font-weight: 500;
+}
+
+/* Quote section */
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9rem;
+  margin-top: 4rem;
+  margin-right: 3rem;
+  transform: rotate(-5deg);
+}
+.quote div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 245, 244);
+  width: 38rem;
+  height: 13rem;
+}
+
+.quote div h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  font-size: 2.6rem;
+  gap: 14px;
+  font-weight: 300;
+}
+
+.quote div h3 img {
+  width: 80px;
+}
+
+.quote p {
+  position: relative;
+  top: -7rem;
+  left: 22rem;
+  font-size: 59px;
+}
+
+/* Templates section */
+
+.templates {
+  display: flex;
+  padding-left: 6rem;
+  margin-top: 6rem;
+  /* justify-content: space-between; */
+  gap: 6rem;
+}
+
+.temp{
+    position: relative;
+    display: grid;
+}
